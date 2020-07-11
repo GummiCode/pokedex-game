@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import stytled from 'styled-components';
+import styled from 'styled-components';
 
 
 const ModeButton = ({ mode }) => {
 
 	return (
-		<button>Mode: {mode}</button> 
+		<button>{mode}</button> 
 	)
 }
 
