@@ -1,23 +1,30 @@
 import React from 'react';
 import styled from 'styled-components';
+import PokemonSelector from './PokemonSelector';
 
 const HeaderStyles = styled.div`
 	margin: 0;
 	padding: 0; 
 	width: 100vw;
-	height: 60px;
+	height: auto;
 	background-color: dimgrey;
 	color: whitesmoke;
-	font-size: 2.4em;
+	font-size: 1em;
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
 `
 
 const Header = () => {
 	return (
-		<HeaderStyles> The Pokedex Challenge</HeaderStyles>
+		<>
+			<HeaderStyles>
+				<h1> The Pokedex Challenge </h1>
+				<PokemonSelector />
+				</HeaderStyles>
+
+		</>
 	);
 }
 

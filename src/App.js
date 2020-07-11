@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from './Header';
 
 function App() {
+
+  const {pokedexNumber, setPokedexNumber } = useState([]);
+
   return (
     <>
       <Header />
