@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PokemonSelector from './PokemonSelector';
+import ButtonContainer from './ButtonContainer';
 
 const HeaderStyles = styled.div`
 	margin: 0;
@@ -22,8 +23,8 @@ const Header = () => {
 			<HeaderStyles>
 				<h1> The Pokedex Challenge </h1>
 				<PokemonSelector />
-				</HeaderStyles>
-
+				<ButtonContainer />
+			</HeaderStyles>
 		</>
 	);
 }

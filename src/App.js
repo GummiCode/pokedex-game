@@ -3,7 +3,7 @@ import Header from './Header';
 
 function App() {
 
-  const {pokedexNumber, setPokedexNumber } = useState([]);
+  const [pokedexNumber, setPokedexNumber] = useState([]);
 
   return (
     <>
