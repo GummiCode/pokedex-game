@@ -19,16 +19,15 @@ const buttons = styled.div`
 	flex-flow: row nowrap;
 	justify-content: center;
 	align-items: center;
-`
+	`
 
 const ButtonContainer = () => {
 
 	const [modeState, setModeState] = useState("Normal")
 
-	return (
-		
+	return (	
 		<buttonContainer>
-			<h3> Difficulty:</h3>
+			<h3>Difficulty:</h3>
 			<buttons>
 				<ModeButton mode="Easy" />
 				<ModeButton mode="Normal" />
